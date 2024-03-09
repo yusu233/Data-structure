@@ -18,13 +18,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="两栈共享空间.cpp">
+    <ClCompile Include="stack.cpp">
       <Filter>源文件\栈</Filter>
     </ClCompile>
     <ClCompile Include="链栈.cpp">
       <Filter>源文件\栈</Filter>
     </ClCompile>
-    <ClCompile Include="stack.cpp">
+    <ClCompile Include="两栈共享空间.cpp">
       <Filter>源文件\栈</Filter>
     </ClCompile>
   </ItemGroup>
