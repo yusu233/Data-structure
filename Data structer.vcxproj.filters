@@ -21,5 +21,8 @@
     <ClCompile Include="两栈共享空间.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="链栈.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
