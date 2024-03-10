@@ -65,7 +65,7 @@ bool DelQueue(Queue* q, QelemType* e) {
 	return true;
 }
 
-int main()
+/*int main()
 {
 	int i = 0, l;
 	QelemType d;
@@ -90,7 +90,7 @@ int main()
 	{
 		DelQueue(&Q, &d);
 		printf("删除的元素是%d,插入的元素:%d \n", d, l + 1000);
-		/* scanf("%d",&d); */
+		// scanf("%d",&d); 
 		d = l + 1000;
 		AddQueue(&Q, d);
 	}
@@ -109,5 +109,5 @@ int main()
 	if (j)
 		printf("现在队头元素为: %d\n", d);
 	return 0;
-}
+}*/
 

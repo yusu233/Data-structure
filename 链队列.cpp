@@ -93,7 +93,7 @@ bool DelQueue(LinkQueue* q, QelemType* e) {
 	return true;
 }
 
-int main()
+/*int main()
 {
 	QelemType d;
 	LinkQueue q;
@@ -115,4 +115,4 @@ int main()
 	ClearQueue(&q);
 	printf("清空队列后,q.front=%u q.rear=%u q.front->next=%u\n", q.front, q.rear, q.front->next);
 	return 0;
-}
+}*/

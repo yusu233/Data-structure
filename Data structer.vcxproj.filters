@@ -16,10 +16,37 @@
     <Filter Include="源文件\栈">
       <UniqueIdentifier>{3bd9c404-b1b3-4c42-ae99-b8b05c368c16}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\队列">
+      <UniqueIdentifier>{481f4613-505a-42d0-a441-5583d0d90501}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\树">
+      <UniqueIdentifier>{cb9efabb-53cb-4e06-99a1-5b5b18cadc0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\线性表">
+      <UniqueIdentifier>{28606002-f084-45d2-856e-fa2f62061414}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\图">
+      <UniqueIdentifier>{7f032cad-9847-4459-a1c0-4bb60e10811f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="链队列.cpp">
+      <Filter>源文件\队列</Filter>
+    </ClCompile>
+    <ClCompile Include="链栈.cpp">
       <Filter>源文件\栈</Filter>
+    </ClCompile>
+    <ClCompile Include="两栈共享空间.cpp">
+      <Filter>源文件\栈</Filter>
+    </ClCompile>
+    <ClCompile Include="顺序栈.cpp">
+      <Filter>源文件\栈</Filter>
+    </ClCompile>
+    <ClCompile Include="顺序队列.cpp">
+      <Filter>源文件\队列</Filter>
+    </ClCompile>
+    <ClCompile Include="二叉树的顺序存储结构.cpp">
+      <Filter>源文件\树</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
