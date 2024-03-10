@@ -128,9 +128,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="stack.cpp" />
-    <ClCompile Include="两栈共享空间.cpp" />
-    <ClCompile Include="链栈.cpp" />
+    <ClCompile Include="链队列.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
