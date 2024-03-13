@@ -28,6 +28,12 @@
     <Filter Include="源文件\图">
       <UniqueIdentifier>{7f032cad-9847-4459-a1c0-4bb60e10811f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\查找">
+      <UniqueIdentifier>{5a8f788c-6191-49a8-947b-a5ac6697845f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\查找\二叉树">
+      <UniqueIdentifier>{a97a9cd7-48a9-4847-9730-e3cad27cd398}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="链队列.cpp">
@@ -53,6 +59,12 @@
     </ClCompile>
     <ClCompile Include="二叉树的链式结构存储.cpp">
       <Filter>源文件\树</Filter>
+    </ClCompile>
+    <ClCompile Include="AVL树.cpp">
+      <Filter>源文件\查找\二叉树</Filter>
+    </ClCompile>
+    <ClCompile Include="二叉搜索树.cpp">
+      <Filter>源文件\查找\二叉树</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

@@ -2,8 +2,9 @@
 using namespace std;
 
 typedef char TElemType;
-string strs = "AB-D-E--C--";//非常容易堆栈溢出，不能乱改，改动需要响应改变str的大小
-char str[11];
+string strs = "AB-D--CEGRY------";//非常容易堆栈溢出，不能乱改，改动需要响应改变str的大小
+int length = strs.size();
+char* str;
 int index = 0;
 
 struct BTNode
@@ -17,7 +18,8 @@ void BTreeCreate(BTNode** T);
 void PreOrderTraverse(BTNode* T);
 
 int main() {
-	for (int i = 0; i < 12; i++)
+	str = new char[length + 1];
+	for (int i = 0; i < length; i++)
 	{
 		str[i] = strs[i];
 	}
