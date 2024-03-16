@@ -152,7 +152,7 @@ private:
 					delete T->rchild;
 					T->rchild = nullptr;
 				}else{
-					return nullptr;
+					return nullptr;//必须要加，不然没法删除两个子节点都没有的情况
 				}
 			}
 		}

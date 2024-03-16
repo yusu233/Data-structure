@@ -66,5 +66,14 @@
     <ClCompile Include="二叉搜索树.cpp">
       <Filter>源文件\查找\二叉树</Filter>
     </ClCompile>
+    <ClCompile Include="堆.cpp">
+      <Filter>源文件\树</Filter>
+    </ClCompile>
+    <ClCompile Include="线索二叉树.cpp">
+      <Filter>源文件\树</Filter>
+    </ClCompile>
+    <ClCompile Include="哈夫曼树.cpp">
+      <Filter>源文件\树</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
