@@ -71,7 +71,7 @@ bool Pop(LinkStack* s, SElemtype* e) {
 	return true;
 }
 
-/*int main()
+int main()
 {
 	int j;
 	LinkStack s;
@@ -85,4 +85,4 @@ bool Pop(LinkStack* s, SElemtype* e) {
 	GetTop(s, &e);
 	printf("栈顶元素 e=%d 栈的长度为%d\n", e, StackLength(s));
 	return 0;
-}*/
+}

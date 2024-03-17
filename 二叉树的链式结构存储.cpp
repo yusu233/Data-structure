@@ -127,7 +127,7 @@ void CreateBiTree(BTNode* &T)
 	}
 }
 
-/*int main()
+int main()
 {
 	BTNode* T;
 	TElemType e1;
@@ -147,4 +147,4 @@ void CreateBiTree(BTNode* &T)
 	printf("\nºóĞò±éÀú¶ş²æÊ÷:");
 	PostOrderTraverse(T);
 	return 0;
-}*/
+}

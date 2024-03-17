@@ -210,7 +210,7 @@ void LevelOrderTraverse(SqBiTree T) {
 	}
 }
 
-/*int main()
+int main()
 {
 	Pos p;
 	TElemtype e;
@@ -244,4 +244,4 @@ void LevelOrderTraverse(SqBiTree T) {
 	printf("×óº¢×Ó %d", Leftchild(T, e));
 	printf("×óÐÖµÜ %d\n", LeftSib(T, e));
 	return 0;
-}*/
+}

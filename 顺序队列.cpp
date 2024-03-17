@@ -65,7 +65,7 @@ bool DelQueue(Queue* q, QelemType* e) {
 	return true;
 }
 
-/*int main()
+int main()
 {
 	int i = 0, l;
 	QelemType d;
@@ -109,5 +109,5 @@ bool DelQueue(Queue* q, QelemType* e) {
 	if (j)
 		printf("现在队头元素为: %d\n", d);
 	return 0;
-}*/
+}
 

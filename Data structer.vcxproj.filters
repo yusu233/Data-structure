@@ -75,5 +75,17 @@
     <ClCompile Include="哈夫曼树.cpp">
       <Filter>源文件\树</Filter>
     </ClCompile>
+    <ClCompile Include="图的邻接矩阵表示.cpp">
+      <Filter>源文件\图</Filter>
+    </ClCompile>
+    <ClCompile Include="图的邻接表表示.cpp">
+      <Filter>源文件\图</Filter>
+    </ClCompile>
+    <ClCompile Include="DFS.cpp">
+      <Filter>源文件\图</Filter>
+    </ClCompile>
+    <ClCompile Include="BFS.cpp">
+      <Filter>源文件\图</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

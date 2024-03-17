@@ -51,7 +51,7 @@ bool Pop(Stack* s, SElemtype* e) {
 	return true;
 }
 
-/*int main() {
+int main() {
 	int j;
 	Stack s;
 	int e;
@@ -67,4 +67,4 @@ bool Pop(Stack* s, SElemtype* e) {
 	printf("µ¯³öµÄÕ»¶¥ÔªËØ e=%d\n", e);
 	printf("Õ»¿Õ·ñ£º%d(1:¿Õ 0:·ñ)\n", StackEmpty(s));
 	return 0;
-}*/
+}

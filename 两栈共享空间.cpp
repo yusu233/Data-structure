@@ -68,7 +68,7 @@ bool Pop(DoubleStack* s, SElemtype* e, int stacknumber) {
 	}
 }
 
-/*int main() {
+int main() {
 	int j;
 	DoubleStack s;
 	int e;
@@ -92,4 +92,4 @@ bool Pop(DoubleStack* s, SElemtype* e, int stacknumber) {
 	printf("Õ»Âú·ñ£º%d(1:·ñ 0:Âú)\n", Push(&s, 100, 1));
 
 	return 0;
-}*/
+}

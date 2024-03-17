@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-typedef int HeapElemTpye;
+typedef int HeapElemType;
 #define MaxData INT_MAX;
 
 //使用最大堆
@@ -14,21 +14,21 @@ public:
 		heap = InitHeap(capacity);
 	}
 
-	void insert(HeapElemTpye value) {
+	void insert(HeapElemType value) {
 		Insert(heap, value);
 	}
 	void traverse() {
 		Traverse(*heap);
 	}
 	
-	HeapElemTpye deleteheap() {
+	HeapElemType deleteheap() {
 		return Delete(heap);
 	}
 
 private:
 	//定义堆结构
 	struct HeapStruct {
-		HeapElemTpye* Elements_;//存储堆的数组
+		HeapElemType* Elements_;//存储堆的数组
 		int size_;//堆当前的元素个数
 		int Maxsize_;//堆的最大容量
 	};
@@ -36,7 +36,7 @@ private:
 	//创建并初始化堆
 	HeapStruct* InitHeap(int capacity) {
 		HeapStruct* H = new HeapStruct;
-		H->Elements_ = new HeapElemTpye[capacity + 1];
+		H->Elements_ = new HeapElemType[capacity + 1];
 		H->size_ = 0;
 		H->Maxsize_ = capacity;
 		H->Elements_[0] = MaxData;
@@ -58,7 +58,7 @@ private:
 	}
 
 	//最大堆的插入
-	void Insert(HeapStruct* H, HeapElemTpye value) {
+	void Insert(HeapStruct* H, HeapElemType value) {
 		int index;
 		if (HeapFull(*H))
 			cout << "堆已满！" << endl;
@@ -69,9 +69,9 @@ private:
 	}
 
 	//最大堆的删除
-	HeapElemTpye Delete(HeapStruct* H) {
+	HeapElemType Delete(HeapStruct* H) {
 		int parent, child;
-		HeapElemTpye root, temp;
+		HeapElemType root, temp;
 		if (HeapEmpty(*H)){
 			cout << "堆已为空！" << endl;
 			return -1;
