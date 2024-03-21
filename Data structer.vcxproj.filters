@@ -34,11 +34,26 @@
     <Filter Include="源文件\查找\二叉树">
       <UniqueIdentifier>{a97a9cd7-48a9-4847-9730-e3cad27cd398}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\图\最小生成树">
+      <UniqueIdentifier>{db2c417e-cdcc-4f92-8d27-584f1f7d9974}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\图\图的遍历">
+      <UniqueIdentifier>{0b1f35f9-df1e-4238-a8e4-d89c4e0beb7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\图\图的表示">
+      <UniqueIdentifier>{68bd214d-12b8-4b2f-ae9f-4ac3c2f82b81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\队列\队列的表示">
+      <UniqueIdentifier>{469d4a23-4697-4de1-8644-78f28807b67b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\树\树的存储">
+      <UniqueIdentifier>{fa6122eb-8c99-4040-a120-bcd6308e26db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\图\最短路算法">
+      <UniqueIdentifier>{d9150470-97dc-43e2-8079-48e2db109fbc}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="链队列.cpp">
-      <Filter>源文件\队列</Filter>
-    </ClCompile>
     <ClCompile Include="链栈.cpp">
       <Filter>源文件\栈</Filter>
     </ClCompile>
@@ -48,16 +63,7 @@
     <ClCompile Include="顺序栈.cpp">
       <Filter>源文件\栈</Filter>
     </ClCompile>
-    <ClCompile Include="顺序队列.cpp">
-      <Filter>源文件\队列</Filter>
-    </ClCompile>
-    <ClCompile Include="二叉树的顺序存储结构.cpp">
-      <Filter>源文件\树</Filter>
-    </ClCompile>
     <ClCompile Include="建立二叉树.cpp">
-      <Filter>源文件\树</Filter>
-    </ClCompile>
-    <ClCompile Include="二叉树的链式结构存储.cpp">
       <Filter>源文件\树</Filter>
     </ClCompile>
     <ClCompile Include="AVL树.cpp">
@@ -75,17 +81,41 @@
     <ClCompile Include="哈夫曼树.cpp">
       <Filter>源文件\树</Filter>
     </ClCompile>
-    <ClCompile Include="图的邻接矩阵表示.cpp">
-      <Filter>源文件\图</Filter>
-    </ClCompile>
-    <ClCompile Include="图的邻接表表示.cpp">
-      <Filter>源文件\图</Filter>
+    <ClCompile Include="BFS.cpp">
+      <Filter>源文件\图\图的遍历</Filter>
     </ClCompile>
     <ClCompile Include="DFS.cpp">
-      <Filter>源文件\图</Filter>
+      <Filter>源文件\图\图的遍历</Filter>
     </ClCompile>
-    <ClCompile Include="BFS.cpp">
-      <Filter>源文件\图</Filter>
+    <ClCompile Include="图的邻接表表示.cpp">
+      <Filter>源文件\图\图的表示</Filter>
+    </ClCompile>
+    <ClCompile Include="图的邻接矩阵表示.cpp">
+      <Filter>源文件\图\图的表示</Filter>
+    </ClCompile>
+    <ClCompile Include="链队列.cpp">
+      <Filter>源文件\队列\队列的表示</Filter>
+    </ClCompile>
+    <ClCompile Include="顺序队列.cpp">
+      <Filter>源文件\队列\队列的表示</Filter>
+    </ClCompile>
+    <ClCompile Include="二叉树的链式结构存储.cpp">
+      <Filter>源文件\树\树的存储</Filter>
+    </ClCompile>
+    <ClCompile Include="二叉树的顺序存储结构.cpp">
+      <Filter>源文件\树\树的存储</Filter>
+    </ClCompile>
+    <ClCompile Include="Dijkstra.cpp">
+      <Filter>源文件\图\最短路算法</Filter>
+    </ClCompile>
+    <ClCompile Include="Floyd.cpp">
+      <Filter>源文件\图\最短路算法</Filter>
+    </ClCompile>
+    <ClCompile Include="Prim.cpp">
+      <Filter>源文件\图\最小生成树</Filter>
+    </ClCompile>
+    <ClCompile Include="Kruskal.cpp">
+      <Filter>源文件\图\最小生成树</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
