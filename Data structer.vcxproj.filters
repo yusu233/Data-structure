@@ -52,6 +52,15 @@
     <Filter Include="源文件\图\最短路算法">
       <UniqueIdentifier>{d9150470-97dc-43e2-8079-48e2db109fbc}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\串">
+      <UniqueIdentifier>{450ec490-6ac6-4d17-9258-d8000f3a8ba3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\查找\静态查找">
+      <UniqueIdentifier>{1bedd00d-1b29-4361-9056-dc57003d8001}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\查找\多路查找树">
+      <UniqueIdentifier>{323e106c-c3c4-4de0-8031-337dbab6e5d4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="链栈.cpp">
@@ -116,6 +125,30 @@
     </ClCompile>
     <ClCompile Include="Kruskal.cpp">
       <Filter>源文件\图\最小生成树</Filter>
+    </ClCompile>
+    <ClCompile Include="拓扑排序.cpp">
+      <Filter>源文件\图</Filter>
+    </ClCompile>
+    <ClCompile Include="关键路径.cpp">
+      <Filter>源文件\图</Filter>
+    </ClCompile>
+    <ClCompile Include="string.cpp">
+      <Filter>源文件\串</Filter>
+    </ClCompile>
+    <ClCompile Include="KMP.cpp">
+      <Filter>源文件\串</Filter>
+    </ClCompile>
+    <ClCompile Include="顺序表查找cpp.cpp">
+      <Filter>源文件\查找\静态查找</Filter>
+    </ClCompile>
+    <ClCompile Include="有序表查找.cpp">
+      <Filter>源文件\查找\静态查找</Filter>
+    </ClCompile>
+    <ClCompile Include="B树.cpp">
+      <Filter>源文件\查找\多路查找树</Filter>
+    </ClCompile>
+    <ClCompile Include="HashTable.cpp">
+      <Filter>源文件\查找</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
