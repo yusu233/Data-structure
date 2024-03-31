@@ -171,5 +171,8 @@
     <ClCompile Include="归并排序.cpp">
       <Filter>源文件\排序</Filter>
     </ClCompile>
+    <ClCompile Include="快速排序.cpp">
+      <Filter>源文件\排序</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
