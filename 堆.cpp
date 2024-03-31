@@ -58,6 +58,7 @@ private:
 	}
 
 	//最大堆的插入
+	// 先假定插入的元素放在最后，然后向上走，找到合适的位置
 	void Insert(HeapStruct* H, HeapElemType value) {
 		int index;
 		if (HeapFull(*H))
